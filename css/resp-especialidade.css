@@ -1,0 +1,38 @@
+@media (max-width: 425px){
+    .container-links h2{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+    .container-especialidades img{
+        display: none;
+    }
+
+    .container-especialidades table{
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .container-especialidades table tr{
+        height: 39px;
+    }
+
+    .container-especialidades table td, th{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    .container-especialidades img{
+        display: none;
+    }
+
+    .container-especialidades table{
+        width: 100%;
+        padding: 0 5px;
+    }
+    
+    .container-especialidades table tr{
+        height: 39px;
+    }
+}
